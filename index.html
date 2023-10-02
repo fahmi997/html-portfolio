@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Lato|Varela+Round">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header id="particles-js">
+        <div id="home">
+            <nav>
+                <img src="/assets/logo2.png" />
+                <ul id="navbar">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <img src="/images/profile1.png" alt="profile picture">
+            <h1 class="lato">Fahmi <span>Ardiansyah</span></h1>
+            <h3 class="poppins">Eat / Sleep / Code / Repeat</h3>
+        </div>
+    </header>
+    <div id="about">
+        <div id="box1">
+            <!-- <h1>ABOUT</h1>
+            <h3>Me</h3> -->
+            <img src="images/about.png" />
+        </div>
+        <div id="box2">
+            <h1>FAHMI ARDIANSYAH</h1><br>
+            <h2>FULLSTACK DEVELOPER</h2><br><br>
+            <!-- <p class="justify">Meet Fahmi Ardiansyah, a passionate full-stack developer dedicated to creating exceptional digital experiences. With 5 years of experiences in web development, Fahmi s driven by a deep love for technology and a commitment to turning ideas into functional and captivating web applications.</p> -->
+            <p>Fahmi is a passionate full-stack developer who is dedicated to creating exceptional digital experiences.
+                With a career spanning 5 years, Fahmi has consistently demonstrated a deep love for technology and a
+                knack for turning ideas into functional and aesthetically pleasing web applications.</p><br>
+            <p>Specializing in full-stack development, Fahmi boasts proficiency in both front-end and back-end aspects
+                of web development. This includes designing intuitive user interfaces, constructing responsive websites,
+                configuring robust databases, and crafting intricate server-side logic.</p>
+            <button class="btn btn-primary">DOWNLOAD CV</button>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me!</span></h2>
+            <h4>If You Have Any Project In Your Mind.</h4>
+            <p>I'm a full-stack developer with a deep love for technology, I thrive on turning ideas into functional and
+                beautiful web applications.</p>
+            <div class="list">
+                <li>+62857514895731</li>
+                <li>ardiansyah@mail.com</li>
+                <li>Reach Me Out On:</li>
+            </div>
+            <div class="contact-icons">
+                <i class='bx bxl-github'></i>
+                <i class='bx bxl-discord-alt' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name"/>
+                <input type="email" placeholder="Your Email Address"/>
+                <input type="tel" placeholder="Your Mobile Number"/>
+                <textarea cols="35" rows="10" placeholder="How Can I Help You?"></textarea>
+                <input type="button" class="submit" value="Send Message"/>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2023 by Fahmi Ardiansyah All Rights Reserved.
+    </footer>
+    <script>
+        $("#navbar li a").on("click", function () {
+            $("#navbar li a").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+</body>
+
+<script src="/node_modules/particles.js/particles.js"></script>
+<script src="/app.js"></script>
+
+</html>
