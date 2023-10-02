@@ -3,5 +3,16 @@
     "boxicons": "^2.1.4",
     "jquery": "^3.7.1",
     "particles.js": "^2.0.0"
-  }
+  },
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
